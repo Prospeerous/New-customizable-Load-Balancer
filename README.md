@@ -60,11 +60,11 @@ curl -X GET http://localhost:5000/rep
 ```
    - Add new server instances:
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"n": 2, "hostnames": ["S4", "S5"]}' http://localhost:5000/add
+curl -X POST -H "Content-Type: application/json" -d '{"n": 2, "hostnames": ["Server1", "Server2"]}' http://localhost:5000/add
 ```
    - Remove server instances:
      ```bash
-curl -X DELETE -H "Content-Type: application/json" -d '{"n": 2, "hostnames": ["S4", "S5"]}' http://localhost:5000/rm
+curl -X DELETE -H "Content-Type: application/json" -d '{"n": 2, "hostnames": ["Server1", "Server2"]}' http://localhost:5000/rm
 ```
    - Route requests through the load balancer:
 ```bash
