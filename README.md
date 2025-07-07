@@ -89,7 +89,7 @@ curl -X GET http://localhost:5000/home
 - Record the number of requests handled by each server and plot a bar chart.
 - Expected Outcome: Even distribution of load among server instances.
 
-![image](https://github.com/nguthiru/Customizable-load-balancer/assets/65071563/4dd71147-b598-42a7-94d0-7633673374da)
+![image](Images/"Load balancer 1.jpeg")
 
 
 
